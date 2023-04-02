@@ -1,71 +1,25 @@
-# Getting Started with Create React App
+# ** A N R T A **
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Building a nation where no one sleeps hungry by empowering farmers- the providers."
 
-## Available Scripts
 
-In the project directory, you can run:
+## Vision
+-Indian agricultural industry consists of small farmers who are vulnerable to market fluctuations.
+-Some major problems they face are mainly due to lack of proper awareness, less adoption of modern digital ways and gap between farmers and government institutions.
+-To cater this there are policies, schemes and laws made by government of India which unfortunately don’t always reach farmer's attention; 
+this is where ANRTA comes into the picture - a Web Application that aims to bridge the gap between farmers and government financial institutions by highlighting the beneficial schemes, MSPs and laws; also provides information about weather conditions 
+*Hence an attempt at Empowering those who ensure no one sleeps hungry in the nation with worlds largest polpulation -#KISAAN_BHAI !! >>.
 
-### `npm start`
+## Challenges Faced
+-Fetching MSPs from official websites was very tedios as the format was irregular hence couldn't be automated and had to be done manually
+-Presenting the schemes in not only general user friendly way but specifically farmer friendly way.
+-In order to make website appealing and userfriendly complex reactJS project has been implemented which was quite a piece of work and demanded lot of research and debugging (thanks to stack overflow and mentors)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Techstack Used
+### `Netlify   ReactJs   CSS   Tailwind CSS   HTML`
 
-### `npm test`
+# By Team - 3 IDIOTS 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### *`SUNAINA RUSTAGI - SHAAN GOSWAMI - SUPRIYA RAI`*
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# myportfolio
