@@ -2,17 +2,14 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Banner from "./components/Home";
 import "./index.css";
 import React from "react";
-import { Container } from "react-bootstrap";
 import logo from "./assets/logo.png";
-import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "mdbreact/dist/css/mdb.css";
-import { Route, Switch, Link, NavLink } from "react-router-dom";
+import { Route, Switch, NavLink } from "react-router-dom";
 import Schemes from "./components/Schemes";
 import Contact from "./components/Contact";
 import Weather from "./components/Weather";
 import MSP from "./components/LatestMSP";
-const resume_URL = "http://localhost:3000/Sunaina_Rustagi_Resume.pdf";
 
 function App() {
 
@@ -104,30 +101,30 @@ function App() {
                 <Route path="/" component={Banner} />
             </Switch>
 
-                   <footer class="text-center text-white" style={{backgroundColor: "#f1f1f1"}}>
-  <div class="container pt-4">
-    <section class="mb-4 icons">
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://twitter.com/AgriGoI"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-twitter"></i
-      ></a>
+            <footer class="text-center text-white" style={{backgroundColor: "#f1f1f1"}}>
+            <div class="container pt-4">
+                <section class="mb-4 icons">
+                <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://twitter.com/AgriGoI"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-twitter"></i
+                ></a>
 
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://www.instagram.com/farmersgov/?hl=en"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-instagram"></i
-      ></a>
-    </section>
-  </div>
-  <div class="text-center text-light p-3 end" style={{backgroundColor: "#31612d", opacity:'80%'}}>
-    © 2023 Copyright
-  </div>
-</footer>
+                <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.instagram.com/farmersgov/?hl=en"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-instagram"></i
+                ></a>
+                </section>
+            </div>
+            <div class="text-center text-light p-3 end" style={{backgroundColor: "#31612d", opacity:'80%'}}>
+                © 2023 Copyright
+            </div>
+            </footer>
         </>
     );
 }
